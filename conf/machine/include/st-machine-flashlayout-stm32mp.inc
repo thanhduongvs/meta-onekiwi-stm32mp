@@ -267,5 +267,5 @@ FLASHLAYOUT_PARTITION_REPLACE_PATTERNS_ssbl2_append = " optee;trusted"
 
 # The daughter board does not support Programmer mode, so use eval one
 # (valid for both fsbl1-boot and ssbl-boot)
-FLASHLAYOUT_PARTITION_REPLACE_PATTERNS_fsbl1-boot_append = " ed1;ev1"
-FLASHLAYOUT_PARTITION_REPLACE_PATTERNS_ssbl-boot_append = " ed1;ev1"
+FLASHLAYOUT_PARTITION_REPLACE_PATTERNS_fsbl1-boot_append = " ed1;ev1;ev2"
+FLASHLAYOUT_PARTITION_REPLACE_PATTERNS_ssbl-boot_append = " ed1;ev1;ev2"

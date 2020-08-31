@@ -8,9 +8,12 @@ PROVIDES += "virtual/trusted-firmware-a-ssp"
 
 TFA_SHARED_SOURCES = "0"
 
-SRC_URI += " \
-    file://0100-st-update-ssp-v2.2-r2.0.0.patch \
-"
+SRC_URI = "git://github.com/thanhduongvs/arm-trusted-firmware-stm32mp.git;protocol=https;name=tfa;branch=v${TF_VERSION}-stm32mp-ssp"
+SRCREV = "6d85390e5c644ac3d3d65ae0b09a364d8d62990e"
+
+PV = "${TF_VERSION}-stm32mp-ssp+github+${SRCPV}"
+
+S = "${WORKDIR}/git"
 
 TF_A_BASENAME = "tf-a-ssp"
 TF_A_CONFIG = "ssp"
@@ -27,9 +30,3 @@ EXTRA_OEMAKE += 'STM32MP_USB_PROGRAMMER=1'
 # Configure archiver use
 # ---------------------------------
 include ${@oe.utils.ifelse(d.getVar('ST_ARCHIVER_ENABLE') == '1', 'tf-a-stm32mp-ssp-archiver.inc','')}
-
-# ---------------------------------
-# Configure devupstream class usage
-# ---------------------------------
-SRC_URI_class-devupstream = "git://github.com/STMicroelectronics/arm-trusted-firmware.git;protocol=https;name=tfa;branch=v${TF_VERSION}-stm32mp-ssp"
-SRCREV_class-devupstream = "3a5830ccfbcebfaa60540d50d42f0e37f3b532e9"

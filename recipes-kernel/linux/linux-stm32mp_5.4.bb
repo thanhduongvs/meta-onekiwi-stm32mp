@@ -8,7 +8,7 @@ include linux-stm32mp.inc
 LINUX_VERSION = "5.4"
 LINUX_SUBVERSION = "31"
 SRC_URI = "git://github.com/thanhduongvs/linux.git;protocol=https;branch=v${LINUX_VERSION}-stm32mp;name=linux"
-SRCREV = "a5ee6cb996178c076420ad0c0252f85fd88241a9"
+SRCREV = "516f48d9d42a3a06b0296da9615e48ffd877d2f1"
 
 #SRC_URI += " \
 #    file://${LINUX_VERSION}/${LINUX_VERSION}.${LINUX_SUBVERSION}/0024-ARM-stm32mp1-r1-USB-4G.patch \

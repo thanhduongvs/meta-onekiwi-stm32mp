@@ -12,7 +12,7 @@ DEPENDS += "flex-native bison-native"
 COMPATIBLE_MACHINE = "(stm32mpcommon)"
 
 SRC_URI = "git://github.com/thanhduongvs/u-boot-stm32mp.git;name=uboot;protocol=https;branch=v${U_BOOT_VERSION}-stm32mp"
-SRCREV = "4e876343e9a5fc0b26c3bc1512488aa7a6df39b9"
+SRCREV = "82ed89f1be86e362e715c7ff9462d77189ae239f"
 
 U_BOOT_VERSION = "2020.01"
 SRCREV_FORMAT = "uboot"

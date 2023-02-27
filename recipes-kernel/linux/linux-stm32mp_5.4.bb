@@ -7,7 +7,7 @@ include linux-stm32mp.inc
 
 LINUX_VERSION = "5.4"
 LINUX_SUBVERSION = "31"
-SRC_URI = "git://github.com/thanhduongvs/linux.git;protocol=https;branch=v${LINUX_VERSION}-stm32mp;name=linux"
+SRC_URI = "git://github.com/thanhduongvs/linux-stm32mp.git;protocol=https;branch=v${LINUX_VERSION}-stm32mp;name=linux"
 SRCREV = "7b882381aba3b9b6ac73c4f1b5fde1e8f1dd3d83"
 
 #SRC_URI += " \

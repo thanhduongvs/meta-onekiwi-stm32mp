@@ -8,7 +8,7 @@ PROVIDES += "virtual/trusted-firmware-a-ssp"
 
 TFA_SHARED_SOURCES = "0"
 
-SRC_URI = "git://github.com/thanhduongvs/arm-trusted-firmware-stm32mp.git;protocol=https;name=tfa;branch=v${TF_VERSION}-stm32mp-ssp"
+SRC_URI = "git://github.com/thanhduongvs/atf-stm32mp.git;protocol=https;name=tfa;branch=v${TF_VERSION}-stm32mp-ssp"
 SRCREV = "6d85390e5c644ac3d3d65ae0b09a364d8d62990e"
 
 PV = "${TF_VERSION}-stm32mp-ssp+github+${SRCPV}"

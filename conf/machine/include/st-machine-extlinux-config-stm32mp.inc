@@ -67,6 +67,8 @@ UBOOT_EXTLINUX_TARGETS_EXTRA_CONFIG[stm32mp157f-dk2] += "stm32mp157f-dk2-a7"
 UBOOT_EXTLINUX_TARGETS_EXTRA_CONFIG[stm32mp157f-dk2] += "stm32mp157f-dk2-m4"
 UBOOT_EXTLINUX_TARGETS_EXTRA_CONFIG[stm32mp157f-ev1] += "stm32mp157f-ev1-a7"
 UBOOT_EXTLINUX_TARGETS_EXTRA_CONFIG[stm32mp157f-ev1] += "stm32mp157f-ev1-m4"
+UBOOT_EXTLINUX_TARGETS_EXTRA_CONFIG[stm32mp151a-kiwi] += "stm32mp151a-kiwi-m4"
+UBOOT_EXTLINUX_TARGETS_EXTRA_CONFIG[stm32mp151a-kiwi] += "stm32mp151a-kiwi-a7"
 
 # -----------------------------------------------------------------------------
 # Configure A7 examples labels
@@ -79,6 +81,7 @@ UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157f-ev1-a7 = "stm32mp157f-ev1-a7-example
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-ev2-a7 = "stm32mp157c-ev2-a7-examples"
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-kmtek-octavo = "stm32mp157c-kmtek-octavo-a7-examples"
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-onekiwi = "stm32mp157c-onekiwi-a7-examples"
+UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp151a-kiwi = "stm32mp151a-kiwi-a7-examples"
 
 # Define FDT overrides for new A7 labels
 UBOOT_EXTLINUX_FDT_stm32mp157c-dk2-a7 = "/stm32mp157c-dk2-a7-examples.dtb"
@@ -88,6 +91,7 @@ UBOOT_EXTLINUX_FDT_stm32mp157f-ev1-a7 = "/stm32mp157f-ev1-a7-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157c-ev2-a7 = "/stm32mp157c-ev2-a7-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157c-kmtek-octavo-a7 = "/stm32mp157c-kmtek-octavo-a7-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157c-onekiwi-a7 = "/stm32mp157c-onekiwi-a7-examples.dtb"
+UBOOT_EXTLINUX_FDT_stm32mp151a-kiwi-a7 = "/stm32mp151a-kiwi-a7-examples.dtb"
 
 # -----------------------------------------------------------------------------
 # Configure M4 examples labels
@@ -98,6 +102,7 @@ UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-ev1-m4 = "stm32mp157c-ev1-m4-example
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-ev2-m4 = "stm32mp157c-ev2-m4-examples"
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-kmtek-octavo-m4 = "stm32mp157c-kmtek-octavo-m4-examples"
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157c-onekiwi-m4 = "stm32mp157c-onekiwi-m4-examples"
+UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp151a-kiwi-m4 = "stm32mp151a-kiwi-m4-examples"
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157f-dk2-m4 = "stm32mp157f-dk2-m4-examples"
 UBOOT_EXTLINUX_MENU_DESCRIPTION_stm32mp157f-ev1-m4 = "stm32mp157f-ev1-m4-examples"
 # Define FDT overrides for new M4 labels
@@ -106,5 +111,6 @@ UBOOT_EXTLINUX_FDT_stm32mp157c-ev1-m4 = "/stm32mp157c-ev1-m4-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157c-ev2-m4 = "/stm32mp157c-ev2-m4-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157c-kmtek-octavo-m4 = "/stm32mp157c-kmtek-octavo-m4-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157c-onekiwi-m4 = "/stm32mp157c-onekiwi-m4-examples.dtb"
+UBOOT_EXTLINUX_FDT_stm32mp151a-kiwi-m4 = "/stm32mp151a-kiwi-m4-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157f-dk2-m4 = "/stm32mp157f-dk2-m4-examples.dtb"
 UBOOT_EXTLINUX_FDT_stm32mp157f-ev1-m4 = "/stm32mp157f-ev1-m4-examples.dtb"
